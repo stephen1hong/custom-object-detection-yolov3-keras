@@ -13,8 +13,9 @@
  
  format: path/to/img1.jpg box_left,box_top, box_right, box_bottom, class_label
  
- 4. model training:  python train.py
- 5. modfel testing;  python image_detect.py
+ 4. generate your anchlor box estimates on your training dataset by running: python kmeans.py
+ 5. model training:  python train.py
+ 6. modfel testing;  python image_detect.py
  
  
    
