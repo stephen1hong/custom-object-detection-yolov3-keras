@@ -18,7 +18,7 @@
     * For single object, class-label set as 0, class_name.txt containing the single object name
  5. generate your anchlor box estimates on your training dataset by running: python kmeans.py
  6. model training:  python train.py
- 7. modfel testing:  python image_detect.py
+ 7. model testing:  python image_detect.py
  
  
   reference: qqwweee/keras-yolo3
