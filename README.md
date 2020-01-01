@@ -1,6 +1,7 @@
 # single-object-detection-yolov3-keras
 
-*Setting
+* Setting
+
  ** python 3.6
  ** tensorflow 1.14.0
  ** keras 2.1.5
