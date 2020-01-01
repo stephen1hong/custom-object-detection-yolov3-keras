@@ -5,7 +5,7 @@
  * python 3.6
  * tensorflow 1.14.0
  * keras 2.1.5
- * GPU (GTX1070)
+ * GPU (GTX 1070)
  * OpenCV 4.1.1
  
 *Usage
@@ -17,7 +17,8 @@
  4. generate a class name file and place it into model_data folder
     * For single object, class-label set as 0, class_name.txt containing the single object name
  5. generate your anchlor box estimates on your training dataset by running: python kmeans.py
- 6. model training:  python train.py
+ 6. model training:  python train.py 
+    * for 500 images in training set with 20% for validation set, the training on GPU (GTX1070) was stoped at about 100 epochs with initial learnign rate of 1e-4
  7. model testing:  python image_detect.py
  
  
