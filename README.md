@@ -13,7 +13,8 @@
  
  format: path/to/img1.jpg box_left,box_top, box_right, box_bottom, class_label
  
- 4. run 
+ 4. model training:  python train.py
+ 5. modfel testing;  python image_detect.py
  
  
    
