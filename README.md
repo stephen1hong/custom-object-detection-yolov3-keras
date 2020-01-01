@@ -1,10 +1,13 @@
 # single-object-detection-yolov3-keras
 
-* Setting
+* Setting/environments
 
  ** python 3.6
+ 
  ** tensorflow 1.14.0
+ 
  ** keras 2.1.5
+ 
  ** GPU (GTX1070)
  
 *Usage
