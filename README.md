@@ -7,6 +7,7 @@
  * keras 2.1.5
  * GPU (GTX 1070)
  * OpenCV 4.1.1
+ * ubuntu 16.0.4
  
 *Usage
  1. download yolo3.weights and yolov3.cfg 
