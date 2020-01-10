@@ -12,7 +12,7 @@
 *Usage
  1. download yolo3.weights and yolov3.cfg 
  2. run "convert.py  -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5"
- 3. generate your own annotation (e.g., train.txt) in the current project folder
+ 3. generate your own annotation (e.g., train.txt) in the current project folder for your own dataset
    * Annotation format:
      * for single object in an image: path/to/img.jpg box_left,box_top,box_right,box_bottom,class_label (Note a space between .jpg file and box_left and no space betwen ",")
      * for multiple objects in an image: path/to/img.jpg box1_left,box1_top,box1_right,box1_bottom,class_label box2_left,box2_top,box2_right,box_bottom,class_lebel (Note a space between class_label and box2_left) 
