@@ -10,7 +10,7 @@
  * ubuntu 16.0.4
  
 *Usage
- 1. download yolo3.weights and yolov3.cfg 
+ 1. download yolo3.weights and yolov3.cfg from Internet
  2. run "convert.py  -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5"
  3. generate your own annotation (e.g., train.txt) in the current project folder for your own dataset
    * Annotation format:
