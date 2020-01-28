@@ -21,7 +21,7 @@
     * For multiple objects, class_label set as 0, 1, ..., class_name.txt containing names of the objects
  5. generate your anchlor box estimates on your training dataset by running: python kmeans.py
  6. model training:  python train.py 
-    * On our case of a single object detection, for 500 images in training set with 20% or 10% for validation set, the training on GPU (GTX1070) was stoped at about 100 epochs with initial learnign rate of 1e-4. You need to adjust hyperparameters basedon your case. 
+    * On our case of a single object detection, for 500 images in training set with 20% or 10% for validation set, the training on GPU (GTX1070) was stoped at about 100 epochs with initial learnign rate of 1e-4. You need to adjust hyperparameters according to your case. 
  7. model testing:  python image_detect.py
  
  
